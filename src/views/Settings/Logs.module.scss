@@ -1,0 +1,46 @@
+.filters {
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  & > span {
+    margin-right: 10px;
+  }
+
+  & > span:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+
+.pidi {
+  width: 80px;
+}
+
+.leveli {
+  width: 80px;
+}
+
+.typei {
+  width: 110px;
+}
+
+.msgi {
+  width: 340px;
+}
+
+.pldi {
+  width: 400px;
+}
+
+.bbtn {
+  margin-left: 20px;
+}
+
+.tabel {
+  margin-top: 24px;
+}
+
+.table {
+  border: 1px solid #eee;
+  border-bottom: none;
+}

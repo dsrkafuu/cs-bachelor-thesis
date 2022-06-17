@@ -1,0 +1,21 @@
+.container {
+  white-space: nowrap;
+}
+
+.row {
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
+.llabel {
+  display: inline-block;
+  margin-right: 10px;
+  width: 90px;
+}
+
+.slabel {
+  display: inline-block;
+  margin-right: 10px;
+  width: 50px;
+}

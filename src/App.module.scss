@@ -1,0 +1,16 @@
+.layout {
+  height: 100%;
+
+  :global(.ant-menu-item),
+  :global(.ant-menu-submenu-title) {
+    font-size: 15px;
+    height: 50px !important;
+    line-height: 50px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  :global(.ant-menu-item-icon) {
+    line-height: 50px !important;
+  }
+}

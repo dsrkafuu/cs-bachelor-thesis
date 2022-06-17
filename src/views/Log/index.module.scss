@@ -1,0 +1,66 @@
+.container {
+  padding: 20px 32px;
+  padding-bottom: 0;
+}
+
+.content {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+}
+
+.records {
+  margin-right: 10px;
+}
+
+.filter {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  width: 940px;
+  height: 74px;
+  align-content: space-between;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.timeinput {
+  width: 240px;
+  margin-right: 10px;
+}
+
+.fpinput {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.rginput {
+  width: 160px;
+  margin-right: 10px;
+}
+
+.ipinput {
+  width: 220px;
+  margin-right: 10px;
+}
+
+.pinput {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.pathinput {
+  width: 326px;
+  margin-right: 10px;
+}
+
+.table {
+  border: 1px solid #eee;
+  border-bottom: none;
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/misans-500-medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'MiSans';
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/misans-600-demibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CascadiaMono';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cascadiamono-regular-400.woff2') format('woff2');
+}
+
+html,
+body {
+  background-color: #f2f2f2;
+  height: 100%;
+  font-family: 'MiSans', sans-serif;
+}
+
+pre,
+code {
+  font-family: 'CascadiaMono', 'MiSans', monospace;
+}
+
+#root {
+  background-color: #f2f2f2;
+  height: 100%;
+}
+
+svg {
+  font-size: inherit;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  font-weight: 400;
+  color: $color-primary;
+}
+
+.ant-layout-content {
+  overflow-y: auto;
+}

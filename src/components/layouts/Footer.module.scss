@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 24px 32px;
+
+  & > span:first-child {
+    flex: 1 1 auto;
+  }
+}
+
+.tz {
+  margin: 0 20px;
+  margin-left: 10px;
+  min-width: 160px;
+}

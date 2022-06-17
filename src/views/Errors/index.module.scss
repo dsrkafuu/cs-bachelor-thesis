@@ -1,0 +1,73 @@
+.container {
+  padding: 20px 32px;
+  padding-bottom: 0;
+}
+
+.content {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+}
+
+.table {
+  border: 1px solid #eee;
+  border-bottom: none;
+  margin-top: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.sinput {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.ninput {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.minput {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.tlabel {
+  margin-right: 14px;
+}
+
+.elabel {
+  display: inline-block;
+  width: 65px;
+  font-size: 16px;
+
+  & > span {
+    font-size: 15px;
+  }
+}
+
+.idlabel {
+  display: inline-block;
+  width: 245px;
+  font-size: 16px;
+
+  & > span {
+    font-size: 15px;
+  }
+}
+
+.ename {
+  font-size: 17px;
+}
+
+.emessage {
+  margin-top: 5px;
+}

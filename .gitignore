@@ -1,0 +1,32 @@
+# output
+dist/
+stats.html
+.vercel/
+coverage/
+public/meta/**
+src/hooks/**/*.json
+src/hooks/**/*.txt
+scripts/**/*.json
+scripts/**/*.txt
+
+# logs
+*.log
+npm-debug.log*
+
+# env
+.env*
+
+# node
+.npm/
+node_modules/
+.pnpm/
+yarn.lock
+
+# system
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

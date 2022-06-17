@@ -1,0 +1,60 @@
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  flex: 1 1 33%;
+  position: relative;
+  min-width: 0;
+  box-shadow: $box-shadow;
+
+  :global(.ant-spin-container) {
+    height: 270px;
+  }
+}
+
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.spanbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 10px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.rowtext {
+  margin-top: 8px;
+  height: 22px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > span:first-child {
+    flex: 1 1 auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+
+  & > span:last-child {
+    flex: 0 0 auto;
+    padding-left: 10px;
+  }
+}
+
+.rowbar {
+  display: block;
+  width: 100%;
+}

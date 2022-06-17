@@ -1,0 +1,34 @@
+.controller {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 10px;
+}
+
+.realtime {
+  margin-left: 24px;
+}
+
+.title {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.children,
+.time {
+  flex: 0 0 auto;
+}
+
+.children {
+  margin: 0 24px;
+  margin-right: 0;
+}
+
+.time {
+  margin-left: 24px;
+}

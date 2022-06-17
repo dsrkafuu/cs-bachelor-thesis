@@ -1,0 +1,13 @@
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    volumes:
+      - mongodb:/data/db
+  dsra:
+    container_name: dsra
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - DATABASE_URL=mongodb://mongodb:27017/dsra

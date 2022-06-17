@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Error | Site</title>
+    <script
+      async
+      src="/client.dev.js"
+      data-id="6227019c94313f449564e318"
+      data-host="http://localhost:3000/"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/posts/">Posts</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Error</h1>
+      <p>This is a fake error post.</p>
+    </main>
+    <script>
+      // runtime error
+      setTimeout(() => {
+        const a = '123';
+        a = 2222;
+      }, 2000);
+      // resource error
+      setTimeout(() => {
+        const script = document.createElement('script');
+        script.src = 'https://example.com/script.js';
+        document.body.appendChild(script);
+        const style = document.createElement('link');
+        style.href = 'https://example.com/style.css';
+        style.rel = 'stylesheet';
+        document.head.appendChild(style);
+        const img = document.createElement('img');
+        img.src = 'https://example.com/image.png';
+        document.body.appendChild(img);
+        const video = document.createElement('video');
+        video.src = 'https://example.com/video.mp4';
+        document.body.appendChild(video);
+        const audio = document.createElement('audio');
+        audio.src = 'https://example.com/audio.mp3';
+        document.body.appendChild(audio);
+      }, 4000);
+      // unhandled promise rejection
+      setTimeout(async () => {
+        const a = '123';
+        a = 2222;
+      }, 6000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.control {
+  margin: 10px 10px 20px 10px;
+}
+
+.codet {
+  margin: 20px 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.code {
+  background-color: #eee;
+  padding: 10px 16px;
+}

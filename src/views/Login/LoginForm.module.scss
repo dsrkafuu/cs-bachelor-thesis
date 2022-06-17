@@ -1,0 +1,35 @@
+.form {
+  :global(.ant-form-item) {
+    position: relative;
+    transition: none;
+    margin-bottom: 28px;
+  }
+
+  :global(.ant-form-item-explain) {
+    position: absolute;
+    height: 28px;
+    top: 34px;
+  }
+}
+
+.control {
+  margin-bottom: 18px;
+
+  :global(.ant-form-item-control-input-content) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+.remember {
+  color: $color-primary;
+  cursor: pointer;
+}
+
+.submit {
+  .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: center;
+  }
+}

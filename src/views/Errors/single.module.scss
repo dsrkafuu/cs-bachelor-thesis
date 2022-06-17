@@ -1,0 +1,51 @@
+.container {
+  padding: 20px 32px;
+  padding-bottom: 0;
+}
+
+.content {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+}
+
+.basics {
+  display: flex;
+}
+
+.meta {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ebox {
+  flex: 0 0 auto;
+  display: flex;
+  text-align: center;
+  gap: 14px;
+  align-items: center;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.desc {
+  margin-top: 8px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.ctrl {
+  margin-top: 20px;
+}

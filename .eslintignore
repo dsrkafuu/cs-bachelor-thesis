@@ -1,0 +1,30 @@
+# output
+dist/
+client/dist/
+client/web/*.dev.js
+cypress/
+stats.html
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# env
+.env*
+
+# node
+.npm/
+node_modules/
+.pnpm/
+package-lock.json
+yarn.lock
+
+# system
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,41 @@
+.container {
+  padding: 20px 32px;
+  padding-bottom: 0;
+}
+
+.content {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+}
+
+.table {
+  border: 1px solid #eee;
+  border-bottom: none;
+}
+
+.filter {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  width: 940px;
+  align-content: space-between;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.sinput {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.pathinput {
+  width: 326px;
+  margin-right: 10px;
+}

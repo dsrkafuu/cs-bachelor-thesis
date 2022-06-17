@@ -1,0 +1,16 @@
+export { ReactComponent as IBug } from './bug.svg';
+export { ReactComponent as IDesktop } from './desktop.svg';
+export { ReactComponent as IDocumentText } from './document-text.svg';
+export { ReactComponent as IFingerPrint } from './finger-print.svg';
+export { ReactComponent as IDownload } from './download.svg';
+export { ReactComponent as IList } from './list.svg';
+export { ReactComponent as ILockClosed } from './lock-closed.svg';
+export { ReactComponent as ILogOut } from './log-out.svg';
+export { ReactComponent as IMenu } from './menu.svg';
+export { ReactComponent as IPerson } from './person.svg';
+export { ReactComponent as IScale } from './scale.svg';
+export { ReactComponent as ISettings } from './settings.svg';
+export { ReactComponent as ISpeedometer } from './speedometer.svg';
+export { ReactComponent as ISyncCircle } from './sync-circle.svg';
+export { ReactComponent as ITime } from './time.svg';
+export { ReactComponent as ITrendingUp } from './trending-up.svg';

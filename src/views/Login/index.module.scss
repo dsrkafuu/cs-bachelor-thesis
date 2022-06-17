@@ -1,0 +1,27 @@
+.login {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 80px;
+
+  :global(.ant-input-prefix) {
+    color: rgb(168, 168, 168);
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 8px;
+  }
+
+  svg {
+    font-size: 32px;
+    fill: currentColor;
+  }
+}

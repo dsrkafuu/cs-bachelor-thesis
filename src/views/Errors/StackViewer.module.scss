@@ -1,0 +1,33 @@
+.container {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+  min-width: 0;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.conts {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.prow {
+  white-space: nowrap;
+  padding: 4px 0;
+}
+
+.label {
+  margin: 0 3px;
+}
+
+.code {
+  margin: 0 3px;
+  margin-right: 12px;
+  font-family: 'CascadiaMono', 'MiSans', monospace;
+}

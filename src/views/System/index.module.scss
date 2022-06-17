@@ -1,0 +1,46 @@
+.container {
+  padding: 20px 32px;
+  padding-bottom: 0;
+}
+
+.content {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.table {
+  border: 1px solid #eee;
+  border-bottom: none;
+  flex: 1 1 auto;
+}
+
+.filter {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.label {
+  margin: 10px 0;
+
+  &:not(:first-child) {
+    margin-top: 24px;
+  }
+}
+
+.sinput {
+  width: 150px;
+}
+
+.charts {
+  width: 100%;
+  display: flex;
+}
